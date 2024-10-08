@@ -1,0 +1,24 @@
+.scrollbar-thin {
+    scrollbar-width: thin;
+  }
+  
+  .scrollbar-thumb-green-600 {
+    scrollbar-color: #38a169 #2d3748; /* Green thumb, dark track */
+  }
+  
+  .scrollbar-track-gray-800 {
+    scrollbar-color: #2d3748 #1a202c; /* Dark track */
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: #2d3748; /* Dark track */
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: #38a169; /* Green thumb */
+    border-radius: 10px;
+  }
